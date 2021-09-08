@@ -49,3 +49,9 @@ instance.setMessage("new message", { value: web3.utils.toWei("1.01", "ether"), f
 ````
 
 After adding a new contract, must `compile`.
+
+## 03 - Testing
+Run the tests on the `test` folder:
+```
+truffle test
+```

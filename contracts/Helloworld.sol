@@ -3,7 +3,7 @@ pragma solidity 0.8.7;
 
 contract Helloworld {
     string public message;
-    address owner;
+    address public owner;
 
     constructor(string memory _message) {
         message = _message;
